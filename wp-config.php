@@ -84,6 +84,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once ABSPATH . 'wp-settings.php';
 
 
-//test pb 500
+// pb 500
 define('WP_HOME','https://apiwpepitech3.herokuapp.com/');
 define('WP_SITEURL','https://apiwpepitech3.herokuapp.com/');
+
+//test api
+
+define('JWT_AUTH_SECRET_KEY', 'elonmusk');
+define('JWT_AUTH_CORS_ENABLE', true);
