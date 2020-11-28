@@ -47,6 +47,10 @@ define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT'));
 define('LOGGED_IN_SALT', getenv('LOGGED_IN_SALT'));
 define('NONCE_SALT', getenv('NONCE_SALT'));
 
+//test api
+
+define('JWT_AUTH_SECRET_KEY', 'elonmusk');
+define('JWT_AUTH_CORS_ENABLE', true);
 
 
 /**#@-*/
@@ -88,7 +92,3 @@ require_once ABSPATH . 'wp-settings.php';
 define('WP_HOME','https://apiwpepitech3.herokuapp.com/');
 define('WP_SITEURL','https://apiwpepitech3.herokuapp.com/');
 
-//test api
-
-define('JWT_AUTH_SECRET_KEY', 'elonmusk');
-define('JWT_AUTH_CORS_ENABLE', true);
