@@ -82,3 +82,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+
+//test pb 500
+define('WP_HOME','https://apiwpepitech3.herokuapp.com/');
+define('WP_SITEURL','https://apiwpepitech3.herokuapp.com/');
